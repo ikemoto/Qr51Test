@@ -10,18 +10,12 @@
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
   </properties>
   <dependencies>
-<dependency>
-        <groupId>${project.groupId}</groupId>
-        <artifactId>appartifact</artifactId>
-        <scope>compile</scope>
-        <type>jar</type>
-    </dependency>
     <dependency>
-        <groupId>${project.groupId}</groupId>
-        <artifactId>appartifact</artifactId>
-        <scope>provided</scope>
-        <version>${project.version}</version>
-        <type>apk</type>
+        <groupId>com.ikehiroki.qr51</groupId>
+        <artifactId>Qr51</artifactId>
+        <version>1.0</version>
+        <type>jar</type>
+        <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.google.android</groupId>
